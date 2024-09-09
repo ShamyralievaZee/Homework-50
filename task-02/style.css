@@ -55,7 +55,8 @@ list-style-type: none;
 #sidebar a {
     text-decoration: none;
     color: #333;
-    font-size: 1.1em;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 #sidebar a:hover {
@@ -73,15 +74,7 @@ list-style-type: none;
 }
 
 #content p {
-    font-size: 1.2em;
     margin-bottom: 20px;
-}
-
-#content img{
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #fadba5;
-    border-radius: 8px;
 }
 .movieWrap{
     text-decoration: none;
@@ -91,17 +84,17 @@ list-style-type: none;
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    background-color: #e3cabb;
+    background-color: #fbefd4;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 350px;
-    height: 600px;
+    height: 560px;
     text-align: center;
     box-sizing: border-box;
     vertical-align: top;
 
 }
 .movieName{
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 0;
     text-transform: uppercase;
 }
@@ -109,9 +102,8 @@ list-style-type: none;
 .movieYear{
     margin: 0;
     letter-spacing: 4px;
-    text-transform: uppercase;
     color: #888888;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 footer {
