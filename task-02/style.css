@@ -1,4 +1,127 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#root{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #fadba5;
+    color: black;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#mainContainer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#layout{
+    display: flex;
+    flex-grow: 1;
+}
+
+#sidebar {
+    background-color: #fbefd4;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar ul {
+list-style-type: none;
+}
+
+#sidebar li {
+    margin: 15px 0;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+}
+
+#sidebar a:hover {
+    color: #c85e31;
+}
+
+#content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#content h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#content img{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #fadba5;
+    border-radius: 8px;
+}
+.movieWrap{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border: 1px solid #bd8b72;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #e3cabb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 600px;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: top;
+
+}
+.movieName{
+    font-size: 25px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.movieYear{
+    margin: 0;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #888888;
+    font-size: 13px;
+}
+
+footer {
+    background-color: #fadba5;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: auto;
+}
+
+
+
